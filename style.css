@@ -1,0 +1,103 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffe6f2;
+  color: #4a0033;
+}
+
+header {
+  background: #ffb3d9;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #4a0033;
+}
+
+.subtitle {
+  margin-top: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2.5rem;
+}
+
+h2 {
+  color: #b30059;
+  border-bottom: 3px solid #ff99c2;
+  width: fit-content;
+  padding-bottom: 4px;
+}
+
+/* PROJECTS GRID */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* CARD */
+.project-card {
+  background: #4a0033;
+  border: 2px solid #ff99c2;
+  border-radius: 15px;
+  padding: 1.5rem;
+  color: white;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 15px #ff99c2;
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  margin: 0.5rem 0;
+  color: #ffb3d9;
+}
+
+/* TAGS */
+.tags {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tags span {
+  background: #ff80bf;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #4a0033;
+}
+
+/* EDUCATION CARD */
+.edu-box {
+  background: #ffd6ea;
+  padding: 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+/* FOOTER */
+footer {
+  background: #ffb3d9;
+  text-align: center;
+  padding: 1.2rem;
+  margin-top: 2rem;
+}
